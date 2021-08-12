@@ -31,21 +31,10 @@ a {
 }
 
 h1 {
-    color: tomato;
-    background-color: rgb(182, 255, 168);
+    font-size: 25px;
+    text-align: center;
 }
 
-h2 {
-    color: green;
-    background-color: rgb(255, 169, 169);
-} 
-
-
-
-h3 {
-    color: rgb(252, 255, 71);
-    background-color: rgb(0, 0, 0);
-}
 
 i {
     color: #0065fc;
@@ -66,9 +55,180 @@ li :hover {
   *
   * */
 
-  .nav-bar {
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-around
-  }
+}
 
+
+
+
+.bloc-localisation input {
+    height: 30px;
+    border: 0.5px lightgrey solid;
+
+}
+
+.btn-loc {
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    border: 0.5px lightgrey solid;
+
+}
+
+.btn-rechercher {
+    height: 30px;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px;
+    border: 0.5px lightgrey solid;
+}
+
+/* <!-- *****@media min*** --> */
+
+.min-btn-rechercher {
+    width: 40px;
+    padding: 10px;
+    background-color: #0065fc;
+    border-radius: 5px;
+    border: none;
+}
+
+.min-btn-rechercher i {
+    color: white;
+    background-color: #0065fc;
+}
+
+/* <!-- ***** Fin @media min*** --> */
+
+
+
+.bloc-filtres button {
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px;
+
+}
+
+.bloc-filtres button:hover {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px black;
+}
+
+.bloc-filtres i {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #deebff;
+    color: #0065fc;
+}
+
+.bloc-pop {
+    background: #f2f2f2;
+
+}
+
+.pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bloc-pop article {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.bloc-pop img {
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+#heb-a-mars {
+    background: #f2f2f2;
+}
+
+.bloc-heb {}
+
+.bloc-heb article {
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.bloc-heb img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.stars {
+    margin-top: 30px;
+}
+
+
+/* *
+*****Partie 3 ***********
+* */
+
+.bloc-activites {
+    text-align: center;
+
+}
+
+.bloc-activites article {
+    box-shadow: #f2f2f2 2px 2px;
+    border-radius: 15px;
+   
+
+}
+
+.bloc-activites article img {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.g-img article {
+    box-shadow: #f2f2f2 2px 2px;
+    border-radius: 15px;
+}
+
+.g-img article img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* *
+*
+*****FOOTER***********
+*
+* */
+
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+
+}
+
+
+
+footer ul {
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+}
+
+footer li {
+    font-size: 10px;
+}

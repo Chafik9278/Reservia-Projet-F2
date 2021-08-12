@@ -18,7 +18,7 @@
 <body>
 
     <header>
- <!-- *********** NavBar ***** -->
+        <!-- *********** NavBar ***** -->
         <nav>
 
             <div class="nav-bar">
@@ -26,22 +26,27 @@
                 <span><a href=""></a>S'inscrire</span>
             </div>
 
-            <ul  class="nav-bar">
-                <li> <a href=""></a>Hebergement</li>
-                <li><a href="">Activites</a></li>
+            <ul class="nav-bar">
+
+                <li><a href="#heb-a-mars">Hebergement</a></li>
+
+                <li><a href="#activites">Activites</a></li>
             </ul>
 
         </nav>
+
+
 
         <h1>Trouvez votre hebergement pour des vacances de reve</h1>
 
         <p>En plein centre ville ou en pleine nature</p>
 
-        <div>
-            <button><i class="fas fa-map-marker-alt"></i>
+        <div class="bloc-localisation">
+            <button class="btn-loc">
+                <i class="fas fa-map-marker-alt"></i>
             </button>
             <input type="text" />
-            <button>Rechercher</button>
+            <button class="btn-rechercher">Rechercher</button>
 
             <!-- *****@media min*** -->
             <button>
@@ -51,7 +56,7 @@
 
 
 
-        <div>
+        <div class="bloc-filtres">
             <h2>Filtres</h2>
 
             <div>
@@ -86,84 +91,90 @@
 
         <!-- 
          ********* Partie Les Plus Populaires ****** -->
-        <div>
-            <h1>Les plus populaires</h1>
-            <span>
-                <i class="fas fa-chart-line"></i>
-            </span>
-        </div>
 
-        <!-- *********Article 1 ****** -->
-        <div>
-            <a href="">
-                <article>
-                    <img src="./Reservia-Img/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                        alt="" />
-                    <div>
-                        <h2>Hôtel Le soleil du matin</h2>
-                        <p>Nuit à partir de 128€</p>
-                        <div class="stars">
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star"></i>
+        <div class="bloc-pop">
+
+
+
+            <div class="pop">
+                <h1>Les plus populaires </h1>
+                <span>
+                    <i class="fas fa-chart-line"></i>
+                </span>
+            </div>
+
+            <!-- *********Article 1 ****** -->
+            <div>
+                <a href="">
+                    <article>
+                        <img src="./Reservia-Img/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                            alt="" />
+                        <div>
+                            <h2>Hôtel Le soleil du matin</h2>
+                            <p>Nuit à partir de 128€</p>
+                            <div class="stars">
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
-                    </div>
-                </article>
-            </a>
-        </div>
+                    </article>
+                </a>
+            </div>
 
-        <!-- *********Article 2 ****** -->
-        <div>
-            <a href="">
-                <article>
-                    <img src="./Reservia-Img/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" />
-                    <div>
-                        <h2>Au coeur de l'eau Chambres d'hôtes</h2>
-                        <p>Nuit à partir de 71€</p>
-                        <div class="stars">
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star"></i>
+            <!-- *********Article 2 ****** -->
+            <div>
+                <a href="">
+                    <article>
+                        <img src="./Reservia-Img/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                            alt="" />
+                        <div>
+                            <h2>Au coeur de l'eau Chambres d'hôtes</h2>
+                            <p>Nuit à partir de 71€</p>
+                            <div class="stars">
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
-                    </div>
-                </article>
-            </a>
-        </div>
+                    </article>
+                </a>
+            </div>
 
-        <div>
-            <!-- *********Article 3 ****** -->
-            <a href="">
-                <article>
-                    <img src="./Reservia-Img/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                        alt="" />
+            <div>
+                <!-- *********Article 3 ****** -->
+                <a href="">
+                    <article>
+                        <img src="./Reservia-Img/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                            alt="" />
 
-                    <div>
-                        <h2>Hôtel Tout bleu et Blanc</h2>
-                        <p>Nuit a partir de 68€</p>
-                        <div class="stars">
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star blue"></i>
-                            <i class="fa fa-star"></i>
+                        <div>
+                            <h2>Hôtel Tout bleu et Blanc</h2>
+                            <p>Nuit a partir de 68€</p>
+                            <div class="stars">
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star blue"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
-                    </div>
-                </article>
-            </a>
+                    </article>
+                </a>
+            </div>
+
         </div>
-
-
         <!-- 
          ********* Partie Hebergements à Marseille ****** -->
 
-        <div>
+        <div id="heb-a-mars">
             <h1>Hébergements à Marseille</h1>
 
-            <div>
+            <div class="bloc-heb">
 
                 <!-- *********Article 1 ****** -->
                 <a href="">
@@ -285,10 +296,12 @@
 
         <!-- 
          ********* Partie Activites ****** -->
-        <div>
+
+
+        <div id="activites">
             <h1>Activites à Marseille</h1>
 
-            <div>
+            <div class="bloc-activites">
                 <!-- *********Article 1 ****** -->
                 <a href="">
                     <article>
