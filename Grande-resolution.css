@@ -1,7 +1,66 @@
 .container {
     margin: 50px;
-    background-color: rgb(182, 211, 235);
+
 }
+
+.mere {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* *
+  Hebergements à Marseille ** -->**
+* */
+#heb-a-mars {
+    width: 50%;
+    height: 900px;
+    background: #f2f2f2;
+}
+
+.bloc-heb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bloc-heb article {
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+
+}
+
+.bloc-heb article img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.stars {
+    margin-top: 30px;
+}
+
+/* *
+** Les Plus Populaires ****** 
+* */
+.bloc-pop {
+    width: 30%;
+    height: 900px;
+    background: #f2f2f2;
+
+
+
+
+}
+
+.pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 
 
