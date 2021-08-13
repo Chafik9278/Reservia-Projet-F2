@@ -1,0 +1,68 @@
+.container {
+    margin: 50px;
+    background-color: rgb(182, 211, 235);
+}
+
+
+
+
+
+/* *
+*****Partie 3 Activites  ***********
+* */
+
+.bloc-activites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.bloc-activites article {
+    box-shadow: #f2f2f2 3px 3px;
+    border-radius: 15px;
+}
+
+.bloc-activites article img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.pi article {
+    box-shadow: #f2f2f2 2px 2px;
+    border-radius: 15px;
+
+}
+
+.pi article img {
+    height: 200px;
+    object-fit: cover;
+
+}
+
+/* *
+  *
+  *****FOOTER***********
+  *
+  * */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+footer div {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+}
+
+footer li {
+    font-size: 10px;
+}
