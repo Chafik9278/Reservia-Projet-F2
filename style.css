@@ -39,8 +39,18 @@ a {
 h1 {
     font-size: 25px;
     text-align: center;
+    color: tomato;
+
 }
 
+h2 {
+    font-size: 20px;
+   
+}
+
+h3 {
+    padding: 10px;
+}
 
 i {
     color: #0065fc;
@@ -53,6 +63,8 @@ li {
 
 li :hover {
     color: #0065fc;
+    padding-top: 20px;
+    border-top: 2px solid #0065fc;
 }
 
 
@@ -60,6 +72,7 @@ li :hover {
     width: 100%;
     height: 100%;
     text-align: center;
+   
 
 }
 
@@ -139,7 +152,7 @@ li :hover {
 /* <!-- ***** Les Filtres*** --> */
 
 .bloc-filtres button {
-    width: 250px;
+    
     border-radius: 20px;
     background-color: white;
     margin: 5px;
@@ -164,50 +177,55 @@ li :hover {
 .bloc-pop {
     background: #f2f2f2;
     border-radius: 15px;
+    
 }
 
 
 .pop {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 10px;
-
+    justify-content: space-between;
+   
 }
+
+
+
 
 .bloc-pop article {
     display: flex;
     background-color: white;
     border-radius: 15px;
-    margin: 5px;
+   margin: 10px;
+
 
 }
 
 .bloc-pop img {
-    width: 50%;
-    height: 200px;
+    width: 30%;
+    height: 150px;
+    padding: 5px;
     border-radius: 15px;
     object-fit: cover;
 }
 
 /* <!-- ***** Hebergement à Marseille*** --> */
 
-#heb-a-mars {
-    background: #f2f2f2;
-    border-radius: 15px;
-}
+
 
 
 .bloc-heb article {
     background-color: white;
     border-radius: 15px;
-    margin: 10px auto;
+
     padding: 10px;
+    box-shadow: 2px 2px #f2f2f2;
+    
 }
 
 .bloc-heb img {
     width: 100%;
     height: 200px;
+    padding: 5px;
     border-radius: 15px;
     object-fit: cover;
 }
@@ -223,7 +241,7 @@ li :hover {
 
 .bloc-activites {
     text-align: center;
-
+   
 }
 
 .bloc-activites article {

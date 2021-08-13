@@ -1,102 +1,112 @@
 .container {
-    margin: 50px;
+  margin: 50px;
+  justify-content: left;
+  text-align: left;
+}
 
+h1 {
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  width: 100%;
+}
+
+.bloc-filtres {
+  display: flex;
+  margin-top: 10px;
+}
+
+.bloc-filtres button {
+  text-align: left;
 }
 
 .mere {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 /* *
   Hebergements à Marseille ** -->**
 * */
 #heb-a-mars {
-    width: 50%;
-    height: 900px;
-    background: #f2f2f2;
+  width: 50%;
+  height: 900px;
+  background: #f2f2f2;
 }
 
 .bloc-heb {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .bloc-heb article {
-    background-color: white;
-    border-radius: 15px;
-    width: 250px;
-    height: 350px;
-
+  background-color: white;
+  border-radius: 15px;
+  width: 250px;
+  height: 350px;
+  margin: 10px;
 }
 
 .bloc-heb article img {
-    border-radius: 15px;
-    object-fit: cover;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .stars {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 /* *
 ** Les Plus Populaires ****** 
 * */
 .bloc-pop {
-    width: 30%;
-    height: 900px;
-    background: #f2f2f2;
-
-
-
-
+  width: 30%;
+  height: 900px;
+  background: #f2f2f2;
+  margin: 0 auto;
 }
 
 .pop {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  padding: 0 10px;
 }
-
-
-
-
-
 
 /* *
 *****Partie 3 Activites  ***********
 * */
 
 .bloc-activites {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 .bloc-activites article {
-    box-shadow: #f2f2f2 3px 3px;
-    border-radius: 15px;
+  box-shadow: #f2f2f2 3px 3px;
+  border-radius: 15px;
 }
 
 .bloc-activites article img {
-    height: 450px;
-    object-fit: cover;
+  height: 450px;
+  object-fit: cover;
 }
 
 .pi article {
-    box-shadow: #f2f2f2 2px 2px;
-    border-radius: 15px;
-
+  box-shadow: #f2f2f2 2px 2px;
+  border-radius: 15px;
 }
 
 .pi article img {
-    height: 200px;
-    object-fit: cover;
-
+  height: 200px;
+  object-fit: cover;
 }
 
 /* *
@@ -106,22 +116,22 @@
   * */
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #f2f2f2;
-    text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  text-align: left;
 }
 
 footer div {
-    justify-content: center;
-    margin: 0 auto;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 footer ul {
-    padding-inline-start: 0px;
-    margin-block-start: 0px;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
 }
 
 footer li {
-    font-size: 10px;
+  font-size: 10px;
 }
