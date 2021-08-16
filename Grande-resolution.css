@@ -1,7 +1,7 @@
 .container {
   margin: 50px;
-  justify-content: left;
   text-align: left;
+
 }
 
 h1 {
@@ -36,9 +36,10 @@ nav {
   Hebergements à Marseille ** -->**
 * */
 #heb-a-mars {
-  width: 50%;
-  height: 900px;
+  width: 60%;
+  height: 650px;
   background: #f2f2f2;
+  border-radius: 15px;
 }
 
 .bloc-heb {
@@ -51,17 +52,18 @@ nav {
   background-color: white;
   border-radius: 15px;
   width: 250px;
-  height: 350px;
+  height: 200px;
   margin: 10px;
 }
 
 .bloc-heb article img {
+  height: 30%;
   border-radius: 15px;
   object-fit: cover;
 }
 
 .stars {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 /* *
@@ -69,13 +71,18 @@ nav {
 * */
 .bloc-pop {
   width: 30%;
-  height: 900px;
+  height: 650px;
   background: #f2f2f2;
   margin: 0 auto;
 }
 
 .pop {
-  padding: 0 10px;
+  padding: 5px;
+}
+
+.bloc-pop article {
+margin: 20px;
+  
 }
 
 /* *
@@ -87,6 +94,8 @@ nav {
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
+ 
+ 
 }
 
 .bloc-activites article {
@@ -118,7 +127,7 @@ nav {
 footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #f2f2f2;
+  background-color: white;
   text-align: left;
 }
 
