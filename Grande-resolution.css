@@ -1,4 +1,4 @@
-.container {
+main {
   margin: 50px;
   text-align: left;
 
@@ -15,15 +15,13 @@ nav {
 
 .nav-bar {
   width: 100%;
+
+ margin: 0px;
 }
 
 .bloc-filtres {
   display: flex;
   margin-top: 10px;
-}
-
-.bloc-filtres button {
-  text-align: left;
 }
 
 .mere {
@@ -35,6 +33,7 @@ nav {
 /* *
   Hebergements à Marseille ** -->**
 * */
+
 #heb-a-mars {
   width: 60%;
   height: 650px;
@@ -81,8 +80,7 @@ nav {
 }
 
 .bloc-pop article {
-margin: 20px;
-  
+  margin: 20px;
 }
 
 /* *
@@ -94,8 +92,6 @@ margin: 20px;
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
- 
- 
 }
 
 .bloc-activites article {
