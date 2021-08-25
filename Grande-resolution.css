@@ -1,7 +1,6 @@
 main {
   margin: 50px;
   text-align: left;
-
 }
 
 h1 {
@@ -16,7 +15,7 @@ nav {
 .nav-bar {
   width: 100%;
 
- margin: 0px;
+  margin: 0px;
 }
 
 .bloc-filtres {
@@ -100,6 +99,7 @@ nav {
 }
 
 .bloc-activites article img {
+  width: 350px;
   height: 450px;
   object-fit: cover;
 }
@@ -110,7 +110,7 @@ nav {
 }
 
 .pi article img {
-  height: 200px;
+  height: 180px;
   object-fit: cover;
 }
 
