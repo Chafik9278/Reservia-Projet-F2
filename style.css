@@ -21,8 +21,8 @@ a {
 }
 
 .fa-star {
-  color: #f2f2f2;
-  font-size: 10px;
+  color: #e9e9e9;
+  font-size: 12px;
 }
 
 .fa-star:hover {
@@ -32,7 +32,7 @@ a {
 
 .fa-star.blue {
   color: #0065fc;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 h1 {
@@ -52,7 +52,10 @@ h3 {
   padding-right: 10px;
 }
 
-
+.decale {
+  padding: 10px;
+  font-weight: 800;
+}
 
 /* *
   *
@@ -110,6 +113,9 @@ h3 {
   margin: 20px;
 }
 
+.bloc-haut h1 {
+  font-weight: 800;
+}
 .bloc-localisation {
   display: flex;
   justify-content: space-between;
@@ -132,7 +138,7 @@ h3 {
 }
 
 .min-rechercher {
-  width: 70px;
+  width: 60px;
   background-color: #0065fc;
   border-radius: 15px;
   border: none;
@@ -203,13 +209,13 @@ h3 {
   align-items: center;
   border: solid 1px rgb(218, 218, 218);
   border-radius: 30px;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 20px;
   margin-right: 10px;
 }
 .fa-info {
   color: #0065fc;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -217,18 +223,25 @@ h3 {
 
 .bloc-pop {
   background: #f2f2f2;
-
   height: 600px;
 }
 
 .pop {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 900;
+}
+
+.pop h1 {
+  font-weight: 800;
 }
 
 .pop i {
   color: black;
+  font-size: 25px;
 }
 .bloc-pop article {
   display: flex;
@@ -254,32 +267,43 @@ h3 {
 .bloc-heb article {
   background-color: white;
   border-radius: 15px;
-  box-shadow: 1px 2px #f2f2f2;
+  box-shadow: 10px 5px 5px #f2f2f2;
   margin: 10px;
 }
 
 .bloc-heb img {
-  width: 100%;
+  width: 98%;
   height: 100px;
+  padding: 5px;
   border-radius: 15px 15px 0px 0px;
   object-fit: cover;
 }
 
-.bloc-heb h2 {
-  font-weight: 900;
+.heb-txt h2 {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.heb-txt p {
+  padding-left: 10px;
+  margin: 0px;
+  font-size: 12px;
 }
 
 .stars {
-  padding: 5px;
+  padding: 10px;
 }
 
+.affichez-plus {
+  padding: 20px;
+  font-weight: 800;
+}
 /* *
 *****Partie 3 ***********
 * */
 
-.decale {
-  padding: 20px;
-}
 .bloc-activites article {
   box-shadow: #f2f2f2 2px 2px;
   border-radius: 15px;
@@ -313,6 +337,7 @@ h3 {
 
 footer {
   background-color: #f2f2f2;
+  padding-left: 20px;
 }
 
 footer h3 {
@@ -323,11 +348,12 @@ footer h3 {
 footer ul {
   list-style: none;
   padding: 0px;
+  font-weight: 500;
 }
 
 footer li {
-  font-size: 12px;
-  padding: 2px;
+  font-size: 15px;
+  padding: 3px;
 }
 
 /* 
