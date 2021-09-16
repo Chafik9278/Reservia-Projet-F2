@@ -40,21 +40,12 @@ nav {
   border-bottom: none;
 }
 
-.order1 {
-  order: 1;
-}
 
-.order2 {
-  order: 0;
+.nav-bar3 {
+background-color: red;
+order: 2;
 }
-
-.order3 {
-  order: 1;
-}
-
-.order4 {
-  order: 0;
-}
+ 
 
 .bloc-localisation {
   display: flex;
