@@ -1,4 +1,4 @@
-main {
+.container {
   margin: 0 50px;
   text-align: left;
 }
@@ -8,21 +8,19 @@ main {
   * */
 
 nav {
-
   justify-content: right;
 }
 
 .nav-bar {
-  padding-top: 30px;
+  padding-top: 28px;
   position: absolute;
   left: 50px;
 }
 
 .nav-bar2 {
   order: 2;
-  padding-top: 40px;
+  padding-top: 28px;
 }
-
 
 .nav-bar3 li {
   width: 50%;
@@ -35,17 +33,14 @@ nav {
 .nav-bar3 li:hover {
   width: 50%;
   margin: 5px auto;
-  padding-top: 30px;
+  padding-top: 28px;
   border-top: 2px solid #0065fc;
   border-bottom: none;
-  
 }
-
 
 /* *****Localisation ***** */
 
 .bloc-localisation {
-
   justify-content: left;
 }
 
@@ -56,9 +51,7 @@ nav {
   font-weight: 700;
 }
 
-
 /* <!-- ***** Les Filtres*** --> */
-
 
 .bloc-filtres {
   display: flex;
@@ -88,8 +81,7 @@ nav {
 }
 
 #heb-a-mars h1 {
-  padding: 20px;
-  font-size: 25px;
+  padding-left: 50px;
 }
 
 .bloc-heb {
@@ -106,7 +98,6 @@ nav {
 .bloc-heb img {
   width: 290px;
   height: 55%;
-
 }
 
 .stars {
@@ -155,10 +146,17 @@ nav {
   margin: 40px;
 }
 
+.affichez-plus {
+  padding-left: 50px;
+}
 
 /* *
 *****Partie 3 Activites  ***********
 * */
+
+#activites h1 {
+  padding-left: 50px;
+}
 
 .bloc-activites {
   display: flex;
@@ -168,13 +166,18 @@ nav {
 
 .bloc-activites article {
   height: 500px;
-
 }
 
 .bloc-activites article img {
   width: 320px;
   height: 450px;
+}
 
+.bloc-activites h2 {
+  margin: 0px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .pi article {
@@ -188,15 +191,11 @@ nav {
   object-fit: cover;
 }
 
-
-
 /* *
   *
   *****FOOTER***********
   *
   * */
-
-
 
 footer div {
   padding-right: 250px;

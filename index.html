@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Reservia - projet-F2</title>
 
     <link rel="stylesheet" href="style.css" />
 
-   
     <link
       rel="stylesheet"
       media="screen and (min-width: 900px)"
       href="tablette.css"
     />
 
-    
     <link
       rel="stylesheet"
       media="screen and (min-width:1600px)"
@@ -23,13 +22,9 @@
     />
 
     <!-- Fontawsome-->
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,13 +36,14 @@
   </head>
 
   <body>
-    <main>
+    <div class="container">
       <header>
         <!-- *********** Navbar ***** -->
         <nav>
           <div class="nav-bar">
             <a href="#">
-              <img class="logo"
+              <img
+                class="logo"
                 src="./Reservia-Img/images/logo/Reservia.svg"
                 alt="logo Reservia"
               />
@@ -73,7 +69,7 @@
               <i class="fas fa-map-marker-alt"></i>
             </button>
 
-            <input  name="recherche" value="Marseille,France" type="text" />
+            <input name="recherche" value="Marseille,France" type="text" />
 
             <button class="min-rechercher">
               <i class="fas fa-search"></i>
@@ -125,11 +121,15 @@
         </div>
       </header>
 
+      <main>
+
+      
+
       <div class="mere">
         <!-- 
          ********* Partie Les Plus Populaires ****** -->
 
-        <div class="bloc-pop">
+        <section class="bloc-pop">
           <div class="pop">
             <h1>Les plus populaires</h1>
             <span>
@@ -206,12 +206,12 @@
               </article>
             </a>
           </div>
-        </div>
+        </section>
         <!-- 
          ********* Partie Hebergements à Marseille ****** -->
 
-        <div id="heb-a-mars">
-          <h1 class="decale">Hébergements à Marseille</h1>
+        <section id="heb-a-mars">
+          <h1 >Hébergements à Marseille</h1>
 
           <div class="bloc-heb">
             <!-- *********Article 1 ****** -->
@@ -348,23 +348,23 @@
           </div>
 
           <a href="">
-            <h2 class="decale">Affichez plus</h2>
+            <h2 class="affichez-plus">Affichez plus</h2>
           </a>
-        </div>
+        </section>
       </div>
       <!-- 
          ********* Partie Activites ****** -->
 
-      <div id="activites">
-        <h1 class="decale">Activites à Marseille</h1>
+      <section id="activites">
+        <h1 >Activites à Marseille</h1>
 
         <div class="bloc-activites">
           <!-- *********Article 1 ****** -->
           <a href="">
             <article>
               <img
-                src="./Reservia-Img/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                alt="Activite à Marseille"
+                src="./Reservia-Img/images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                alt="Vieux Port"
               />
               <h2>Vieux Port</h2>
             </article>
@@ -374,8 +374,8 @@
             <a href="">
               <article>
                 <img
-                  src="./Reservia-Img/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                  alt="Activite à Marseille"
+                  src="./Reservia-Img/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                  alt="Fort de Pomegues"
                 />
                 <h2>Fort de Pomegues</h2>
               </article>
@@ -384,8 +384,7 @@
             <a href="">
               <article>
                 <img
-                  src="./Reservia-Img/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                  alt="Activite à Marseille"
+                  src="./Reservia-Img/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul"
                 />
                 <h2>Iles du Frioul</h2>
               </article>
@@ -395,8 +394,8 @@
           <a href="">
             <article>
               <img
-                src="./Reservia-Img/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                alt="Activite à Marseille"
+                src="./Reservia-Img/images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                alt="Parc National des Calanques"
               />
               <h2>Parc National des Calanques</h2>
             </article>
@@ -406,8 +405,8 @@
             <a href="">
               <article>
                 <img
-                  src="./Reservia-Img/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                  alt="Activite à Marseille"
+                  src="./Reservia-Img/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt="Notres-Dame-de-la-Garde"
                 />
                 <h2>Notres-Dame-de-la-Garde</h2>
               </article>
@@ -416,15 +415,18 @@
             <a href="">
               <article>
                 <img
-                  src="./Reservia-Img/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                  alt="Activite à Marseille"
+                  src="./Reservia-Img/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                  alt="Parc Longchamp"
                 />
                 <h2>Parc Longchamp</h2>
               </article>
             </a>
           </div>
         </div>
-      </div>
+      </section>
+
+
+    </main>
 
       <footer>
         <div class="decale">
