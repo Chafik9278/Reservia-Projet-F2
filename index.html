@@ -8,10 +8,17 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
+   
     <link
       rel="stylesheet"
-      media="screen and (min-width: 500px)"
+      media="screen and (min-width: 900px)"
+      href="tablette.css"
+    />
+
+    
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:1600px)"
       href="grande-resolution.css"
     />
 
@@ -40,7 +47,7 @@
         <nav>
           <div class="nav-bar">
             <a href="#">
-              <img
+              <img class="logo"
                 src="./Reservia-Img/images/logo/Reservia.svg"
                 alt="logo Reservia"
               />
@@ -66,7 +73,7 @@
               <i class="fas fa-map-marker-alt"></i>
             </button>
 
-            <input type="text" />
+            <input  name="recherche" value="Marseille,France" type="text" />
 
             <button class="min-rechercher">
               <i class="fas fa-search"></i>

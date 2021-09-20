@@ -6,15 +6,23 @@
 
 
 body {
-  font-family: "Allison", cursive;
+  font-family: "Allison", cursive ;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   margin: 0;
+ 
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+
+
+article:hover {
+ transform:scale(1.05) ;
+
 }
 
 .fas {
@@ -29,7 +37,7 @@ a {
 
 .fa-star:hover {
   color: #0065fc;
-  font-size: 18px;
+  transform:scale(1.05) ;
 }
 
 .fa-star.blue {
@@ -39,7 +47,7 @@ a {
 
 .fa-star.blue:hover {
 
-  font-size: 18px;
+  transform:scale(1.05) ;
 }
 
 h1 {
@@ -75,22 +83,30 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  
 }
 
-.nav-bar {
-  padding: 20px;
-  padding-top: 0px;
+
+.logo {
+width: 120px;
+
 }
 
-.nav-bar2 {
-  padding: 20px;
-  padding-top: 0px;
-}
+.logo:hover {
+transform: rotate(-10deg);
+  }
+
 
 .nav-bar2 a {
   color: #0065fc;
   font-size: 17px;
   font-weight: 800;
+}
+
+.nav-bar2 a:hover {
+  color: royalblue;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .nav-bar3 {
@@ -135,6 +151,7 @@ nav {
 .bloc-localisation {
   display: flex;
   justify-content: space-between;
+  max-width: 375px;
 }
 
 .btn-loc {
@@ -187,8 +204,9 @@ nav {
 
 .bloc-filtres button:hover {
   color: white;
-  background-color: royalblue;
+  background-color:red;
   box-shadow: 2px 2px 2px hsl(0, 0%, 1%);
+  transform: rotate(-5deg);
 }
 
 .btn-filtre {
@@ -206,8 +224,8 @@ nav {
   justify-content: center;
   align-items: center;
   border: solid 1px rgb(218, 218, 218);
-  border-radius: 30px;
-  width: 30px;
+  border-radius: 50px;
+  width: 25px;
   height: 20px;
   margin-right: 10px;
 }
@@ -332,7 +350,7 @@ nav {
 
 
 .bloc-activites article {
-  height: 250px;
+  height: 200px;
   box-shadow: #f2f2f2 2px 2px;
   border-radius: 15px;
   margin: 10px;
@@ -387,7 +405,7 @@ footer li {
 
 @media all and (min-width: 500px) {
   main {
-    margin: 50px;
+    margin: 0 50px;
   }
 }
 
